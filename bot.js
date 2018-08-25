@@ -7,9 +7,9 @@ const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
  
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const prefix = '5';
+const prefix = '6';
 client.on('ready', function() {
-    client.user.setGame(`Type 5play `,"http://twitch.tv/Baktash_183")
+    client.user.setGame(`Type 6play `,"http://twitch.tv/Baktash_183")
     console.log(`i am ready ${client.user.username}`);
 });
 /*
@@ -257,7 +257,7 @@ client.on('message', message => {
     });
  
  
-const adminprefix = "5";
+const adminprefix = "6";
 const devs = ['436856467044302848'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
